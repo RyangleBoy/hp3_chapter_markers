@@ -11,7 +11,7 @@ class ChapterFinder
   end
 
   def puts_chapter_info
-    puts "Chapter #{@chapter_number} starts at #{@book.chapter_start_timestamp(@chapter_number)}"
+    puts "Chapter #{@chapter_number} starts at #{@book.chapter_start_timestamp(@chapter_number + 1)}"
   end
 
   def run
